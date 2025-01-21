@@ -9,8 +9,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=VT323&display=swap');
+
 :root {
-  --font-default: 'Squada One', cursive;
+  --font-default: "DynaPuff", serif;
   --font-primary: 'VT323', monospace;
   --font-secondary: 'VT323', monospace;
   --font-heading: 'VT323', monospace;
@@ -3863,7 +3865,12 @@ button.btn-get-started:hover {
   justify-content: flex-start;
   gap: 24px;
 
-  padding-top: 36px;
+  padding-top: 24px;
+}
+
+.about-murs-text-wrapper>p {
+  font-size: 1.75em;
+  text-align: justify;
 }
 
 .counter-header>h2 {
